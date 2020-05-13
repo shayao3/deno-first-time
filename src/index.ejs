@@ -1,0 +1,14 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Deno form example</title>
+</head>
+<body>
+  <form action="/posts" method="POST">
+    <label>メッセージを入れてね！</label><br>
+    <input type="text" name="message" placeholder="message" /><br>
+    <button>送信</button>
+  </form>
+  <div>受け取ったメッセージ: <%= message %></div>
+</body>
+</html>
